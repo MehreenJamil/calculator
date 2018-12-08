@@ -19,6 +19,7 @@ public class Calculator {
        
     }
     public static int decrease(int n){
+        System.out.println("Decrease Function");
         return n-(n*100);
     }
     
