@@ -16,7 +16,10 @@ public class Calculator {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.print("dsfsf");
+       
+    }
+    public static int decrease(int n){
+        return n-(n*100);
     }
     
 }
