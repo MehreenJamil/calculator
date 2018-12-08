@@ -7,7 +7,9 @@ package calculator;
 
 import java.util.Scanner;
 
-/**
+/**-
+ * 0,
+ * 
  *
  * @author mehre
  */
@@ -22,6 +24,7 @@ public class Calculator {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
         
         System.out.println("Enter a int and get an other int with 2 addition: ");
         Scanner input= new Scanner(System.in);
@@ -29,8 +32,13 @@ public class Calculator {
         int a= input.nextInt();
         int b= increase(a);
         System.out.println(b);
-        
-        
+
+        // TODO code application logic here
+       
+    }
+    public static int decrease(int n){
+        return n-(n*100);
+
     }
     
 }
