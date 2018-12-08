@@ -5,18 +5,32 @@
  */
 package calculator;
 
+import java.util.Scanner;
+
 /**
  *
  * @author mehre
  */
 public class Calculator {
+    
+    public static int increase (int a){
+    int b= a+2;
+    return b;
+    }
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.print("dsfsf");
+        
+        System.out.println("Enter a int and get an other int with 2 addition: ");
+        Scanner input= new Scanner(System.in);
+        
+        int a= input.nextInt();
+        int b= increase(a);
+        System.out.println(b);
+        
+        
     }
     
 }
