@@ -26,7 +26,7 @@ public class Calculator {
     public static void main(String[] args) {
 
         
-        System.out.println("Enter a int and get an other int with 2 addition: ");
+        System.out.println("Output Coming from newBrance: ");
         Scanner input= new Scanner(System.in);
         
         int a= input.nextInt();
@@ -37,7 +37,7 @@ public class Calculator {
        
     }
     public static int decrease(int n){
-        System.out.println("Decrease Function");
+        System.out.println("Function");
         return n-(n*100);
 
     }
